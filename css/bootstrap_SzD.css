@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+nav p {
+    color: grey;
+}
+
+nav {
+    position: fixed;
+}
+
+nav p:hover {
+    color: white;
+}
+
+section#header {
+    background: linear-gradient(to right, #D2273A, #A3376B), url("img/bg-pattern.png") repeat;
+}
+
+section#header button {
+    background: none;
+    border-radius: 30px;
+    color: white;
+}
+
+section#header img {
+    height: 500px;
+}
+
+section#header h2 {
+    color: white;
+}
+
+nav a {
+    color: grey;
+}
+
+nav a:hover {
+    color: white;
+}
+
+section#discover {
+    background-color: #FCC949;
+    text-align: center;
+    padding: 100px;
+}
+
+section#discover img {
+    height: 40px;
+}
+
+section#unlimited {
+    text-align: center;
+    padding: 30px;
+}
+
+section#unlimited img {
+    height: 300px;
+}
+
+section#stop {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/bg-cta.jpg");
+    height: 700px;
+    color: white;
+}
+
+section#stop div.col-xs-4 {
+    position: relative;
+    top: 250px;
+}
+
+section#welove {
+    background-color: #FCC949;
+    padding: 100px;
+    opacity: 90%;
+}
+
+section#welove:hover {
+    opacity: 100%;
+}
+
+footer {
+    background: black;
+    color: grey;
+}
+
+section#stop button {
+    border-radius: 50px;
+    background: none;
+    color: white;
+}
+
+#footer a {
+    text-decoration: none;
+    color: grey;
+}
+
+#footer a:hover {
+    color: #fdcc52;
+    cursor: pointer;
+}
